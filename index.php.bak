@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <meta charset="UTF-8">
+	  <title>Belajar PHP</title>
+    </head>
+     <body>
+	
+	<?php 
+	   /* 
+		  berapa baris
+		  komentar
+		  tersersh teman2
+	  */
+	  
+	  // variabel pada php
+			$nama = "SEKOLAH KODING 345";
+			$_123 = "Text Baru";
+			
+		  echo "<h1>$nama</h1>"; 
+		  echo "<h1>$_123</h1>"; 
+		  echo "Halo ". $nama . "<br>";
+		  echo "Member " ;
+		  
+	  // tipe data -string-
+		$nama = "Sekolah Koding";
+		$nama2 = 'Bermain koding';
+		
+		echo "selamat datang di \$nama <br>"; 
+		
+	  // tipe data angka/number
+	  // 1. Interger 2. float
+	  
+		$angka = 1000;
+		$angka2 = 3;
+		$angka3 = 2;
+		
+	  //------------- Operator Math -------------
+	  // + - * / % ++ --
+		echo $angka + $angka2 + $angka3;
+		$angka++;
+		$angka *= $angka2;
+		echo $angka;
+
+	?>
+	
+	  </body>
+  </html>
